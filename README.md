@@ -22,3 +22,19 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+## Products
+
+GET /products
+
+Esse endpoint pode ser usado para pegar os produtos contidos no estoque da hamburgueria.
+
+## Cart
+
+POST /cart
+
+Esse endpoint pode ser usado para guardar uma array de objetos que o usuário escolher.
+
+GET /cart
+
+Esse endpoint é usado para pegar a array de objetos que contém os produtos de determinado usuário.
